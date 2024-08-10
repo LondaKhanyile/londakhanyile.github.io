@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favourite Programming Language</title>
+</head>
+<body>
+  <!-- The heading -->
+  <h2>Melsofters Favourite Programming Language</h2>
+  <!-- Beginning of the form -->
+  <form method="post">
+    <fieldset>
+      <legend>Add User</legend>
+<!-- First name, surname and email -->
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="email">Email Address</label>
+      <input type="email" name="email" id="email"><br>
+<!-- User status at Melsoft -->
+      <label for="status">Status</label>
+      <select name="status" id="status">
+        <option value="default">Select status</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="guest">Guest</option>
+      </select><br>
+<!-- radio buttons with clickable text -->
+      <p>Choose your favourite programming language</p>
+      <label for="html"><input type="radio" name="language" id="html"> Html</label> <br>
+      <label for="css"><input type="radio" name="language" id="css"> CSS</label> <br>
+      <label for="js"><input type="radio" name="language" id="js"> JavaScript</label> <br><br>
+<!-- additional comment -->
+      <label for="comments">Comments</label>
+      <textarea name="text" id="text" placeholder="I love this language because..."></textarea><br><br>
+      <!-- current date picker -->
+      <label for="date">Current Date</label>
+      <input type="date" name="date" id="date"><br><br>
+<!-- User preferences and agreement -->
+      Sign up for the newsletter <input type="checkbox" name="newsletter" id="newsletter"><br>
+      Agree to terms and conditions <input type="checkbox" name="tnc" id="tnc"><br><br>
+<!-- Submit button -->
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+</body>
+</html>
